@@ -18,10 +18,9 @@ const ENV = process.env;
 let client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
-        GatewayIntentBits.GuildMembers,
         GatewayIntentBits.GuildMessages,
-        GatewayIntentBits.MessageContent,
         GatewayIntentBits.GuildVoiceStates,
+        GatewayIntentBits.MessageContent,
     ],
     partials: [Partials.Channel],
     disableMentions: 'everyone',
