@@ -1,19 +1,20 @@
 <img width="150" height="150" align="right" style="float: right; margin: 0 10px 0 0;" alt="music_disc" src="public/imgs/logo2.png">
 
-# Music Disc 
+# discord-player version of Music Disc
 
-<a href="https://github.com/hmes98318/Music-Disc/releases"><img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/hmes98318/Music-Disc?style=for-the-badge"></a> 
+<a href="https://github.com/hmes98318/Music-Disc-discord-player/releases"><img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/hmes98318/Music-Disc?style=for-the-badge"></a> 
 <a href="https://discord.js.org/"><img src="https://img.shields.io/badge/Discord.JS-v14-blue?style=for-the-badge&logo=DISCORD" /></a> 
-<a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.JS->=16.13.0-brightgreen?style=for-the-badge&logo=Node.js"></a> 
+<a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.JS->=18.x-brightgreen?style=for-the-badge&logo=Node.js"></a> 
 <a href="https://github.com/hmes98318/Music-Disc/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/hmes98318/Music-Disc?style=for-the-badge&color=brightgreen"></a>  
 
-### Discord.js v14 Music Bot  
-Supports **YouTube**, **Spotify**, **SoundCloud** streams.
+A discord music bot, supports **YouTube**, **Spotify**, **SoundCloud** streams.  
+Developed based on [**discord.js v14**](https://discord.js.org/#/), [**discord-player**](https://github.com/Androz2091/discord-player).  
 
 
-### Reference version  
-[**node.js  `v18.16.0`**](https://nodejs.org/en/)  
-[**discord.js  `v14.11.0`**](https://www.npmjs.com/package/discord.js)  
+If you need the version of [**Lavalink**](https://github.com/lavalink-devs/Lavalink), please refer to this [**branch**](https://github.com/hmes98318/Music-Disc).  
+
+If you encounter any issues or would like to contribute to the community, please join our [Discord server](https://discord.gg/7rQEx7SPGr).  
+
 
 
 ## Deploying with node.js
