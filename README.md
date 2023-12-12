@@ -21,9 +21,9 @@ If you encounter any issues or would like to contribute to the community, please
 
 ### Clone the latest version of the repository
 ```
-git clone -b v1.4.2 https://github.com/hmes98318/Music-Disc.git
+git clone -b v1.4.3 https://github.com/hmes98318/Music-Disc-discord-player.git
 ```
-or [**click here**](https://github.com/hmes98318/Music-Disc/releases) to download  
+or [**click here**](https://github.com/hmes98318/Music-Disc-discord-player/releases) to download  
 
 
 ### Install the dependencies
@@ -94,7 +94,7 @@ npm run start
 version: '3.8'
 services:
   music-disc:
-    image: hmes98318/music-disc:1.4.2
+    image: hmes98318/music-disc:1.4.3
     container_name: music-disc
     restart: always
     ports:
