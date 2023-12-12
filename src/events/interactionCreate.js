@@ -94,12 +94,12 @@ module.exports = async (client, int) => {
                             description: x,
                             value: x
                         }
-                    }))
+                    }));
 
                 const row = new ActionRowBuilder().addComponents(select);
                 let msg = await int.reply({ content: `Select a song loop mode.`, ephemeral: true, components: [row] });
 
-                const collector = msg.createMessageComponentCollector({
+                const collector = int.channel.createMessageComponentCollector({
                     time: 20000, // 20s
                     filter: i => i.user.id === int.user.id
                 });
@@ -143,7 +143,7 @@ module.exports = async (client, int) => {
                 collector.on("end", (collected, reason) => {
                     if (reason == "time" && collected.size == 0) {
                         if (!queue?.deleted && !queue.isPlaying()) queue?.delete();
-                        return int.editReply({ content: "❌ | Time expired.", ephemeral: true, components: [] });
+                        return msg.edit({ content: "❌ | Time expired.", ephemeral: true, components: [] });
                     }
                 });
             } break;
